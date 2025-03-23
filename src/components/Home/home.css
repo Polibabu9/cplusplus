@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --primary-color:rgb(41, 26, 64);
+    --secondary-color :#b6b6b6;
+}
+.display-4{
+    color: var(--primary-color) !important;
+}
+
+#hero{
+    margin-top:150px !important;
+    margin-bottom: 110px !important;
+}
+
+p > span{
+    font-weight: 500;
+    color: #503b71;
+}
+
+p > span:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.learn{
+    margin-left: 50px !important;
+}
+
+.btn{
+    background-color: var(--primary-color) !important;
+    border: var(--primary-color);
+    border-radius: 15px;
+}
+
+img{
+    width: 70% !important;
+}
+.small-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#feature-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#start-learn{
+    font-size: medium !important;
+}
+
+#start-learn:hover{
+    scale: 1.03 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.learn {
+    margin-left: 50px;
+}
+
+@media (max-width: 1024px) {
+    .learn {
+        margin-left: 0px !important;
+    }
+}
